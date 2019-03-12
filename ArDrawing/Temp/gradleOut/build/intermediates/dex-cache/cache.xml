@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\C1620353\.android\build-cache\cdd7dc624de75270969e6355adf60044c713d601\output\jars\libs\VuforiaUnityPlayer.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1e5c98f1d2f1973f9a08b7849f319bcb135fe8c3">
+        <dex dex="C:\Users\C1620353\Documents\ArDrawing\Temp\gradleOut\build\intermediates\pre-dexed\release\VuforiaUnityPlayer_3bbc8942f9d17d61a3844514c0a9d7a95a7e866a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C1620353\.android\build-cache\cdd7dc624de75270969e6355adf60044c713d601\output\jars\libs\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1525e08d2db7c0d6b7219dc2a141bb3ff56929ad">
+        <dex dex="C:\Users\C1620353\Documents\ArDrawing\Temp\gradleOut\build\intermediates\pre-dexed\release\Vuforia_ef83c37769edb0168d10acf76df865221308adfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C1620353\Documents\ArDrawing\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b375a689c4555d10c4706d2110f5c9913a6c4a59">
+        <dex dex="C:\Users\C1620353\Documents\ArDrawing\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_5e4a9b69d3a54b352910a362b6e7b3916218ee69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\C1620353\.android\build-cache\cdd7dc624de75270969e6355adf60044c713d601\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e29373b760f2999cd878625efe4641edd156a3d0">
+        <dex dex="C:\Users\C1620353\Documents\ArDrawing\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_d820be2fb53ba7785ab5234466483080fb7773e8.jar" />
+    </item>
+
+</items>
