@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/HomeScreen.unity
+    guid: 6d4bf4c167430d94dbfbdadf2f9ec348
+  - enabled: 1
     path: Assets/DuckDrawing.unity
     guid: c0b02157489fb0046bda49d0b6fe5b65
   - enabled: 1
