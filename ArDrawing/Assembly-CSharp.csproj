@@ -55,6 +55,7 @@
      <Compile Include="Assets\Region_Capture\Samples\Debug_UI\VuforiaDeviceOrientationDebug.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Get_Texture\RC_Get_Texture.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Out_Of_Bounds_Detection\RC_Change_Color.cs" />
+     <Compile Include="Assets\Region_Capture\Scripts\NextScene.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\RegionCapture.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\RenderTextureCamera.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\SetOrthographicSize.cs" />

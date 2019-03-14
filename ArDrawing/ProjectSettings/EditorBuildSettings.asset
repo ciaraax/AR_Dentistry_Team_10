@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/DuckDrawing.unity
+    guid: c0b02157489fb0046bda49d0b6fe5b65
+  - enabled: 1
+    path: Assets/DrawingTwo.unity
+    guid: 035d2c68f6d1471448a757ba9a869728
