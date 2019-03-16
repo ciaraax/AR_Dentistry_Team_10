@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/multiple_image.unity
+  isLoaded: 1
+  isActive: 1
