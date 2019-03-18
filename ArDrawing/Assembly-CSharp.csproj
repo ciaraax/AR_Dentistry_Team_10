@@ -76,6 +76,8 @@
      <None Include="Assets\StreamingAssets\Vuforia\AR_coloring_page.xml" />
      <None Include="Assets\Region_Capture\Shaders\RC_Simple_Color.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\database\video-ar\video-ar.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\AR-One.xml" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />

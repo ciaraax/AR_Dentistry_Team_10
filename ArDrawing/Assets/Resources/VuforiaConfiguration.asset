@@ -44,19 +44,21 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - AR-One
+    - AR_coloring_page
+    - StonesAndChips
     - VuforiaMars_Object_OT
     - VuforiaMars_ModelTarget
     - VuforiaMars_Images
     - VuforiaMars_VuMark
-    - AR_coloring_page
-    - StonesAndChips
     dataSetsToActivate:
+    - AR_coloring_page
+    - AR-One
+    - StonesAndChips
     - VuforiaMars_Object_OT
     - VuforiaMars_ModelTarget
     - VuforiaMars_Images
     - VuforiaMars_VuMark
-    - AR_coloring_page
-    - StonesAndChips
   videoBackground:
     clippingMode: 0
     numDivisions: 2
