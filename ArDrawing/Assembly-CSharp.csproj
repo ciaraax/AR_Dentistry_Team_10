@@ -65,6 +65,7 @@
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\AR-One.xml" />
      <None Include="Assets\Region_Capture\Shaders\RC_MipMap_Blurred.shader" />
      <None Include="Assets\Region_Capture\Shaders\RC_Transparent_Outer_Bounds.shader" />
      <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
@@ -77,7 +78,6 @@
      <None Include="Assets\Region_Capture\Shaders\RC_Simple_Color.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
      <None Include="Assets\database\video-ar\video-ar.xml" />
-     <None Include="Assets\StreamingAssets\Vuforia\AR-One.xml" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
