@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 51
+  controlID: 77
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 89
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
     height: 250
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: next
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -337,19 +337,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Region_Capture/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Region_Capture/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\C1620353\Documents\GroupProject\AR_Dentistry_Team_10\ArDrawing
+  m_LastProjectPath: C:\Users\C1620353\Documents\Group_Project\AR_Dentistry_Team_10\ArDrawing
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 87.50055}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c82d0000ce2d0000d02d0000e62d0000362e00005a2e00006e2e0000282f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 4a2d0000
+    m_LastClickedID: 11594
+    m_ExpandedIDs: 000000004a2d0000502d0000522d00006c2d0000c22d0000ee2d0000062e0000e02e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -377,7 +377,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c82d0000ce2d0000d02d0000e62d0000e82d0000362e00005a2e00006e2e0000ce2e0000282f0000
+    m_ExpandedIDs: 000000004a2d0000502d0000522d00006c2d0000c22d0000ee2d0000062e0000e02e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f82500002c30000098280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -497,21 +497,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d6bdfeff56befeff8ac0feff94c0feffa2c0feffaac0feffe0d9feff5cdafeff90dcfeff9adcfeffa8dcfeffb0dcfeff30e4fefface4feffe0e6feffeae6fefff8e6feff00e7feffecebfeff68ecfeff9ceefeffa6eefeffb4eefeffbceefeff20fcfeff140bffff1c0bfffff40effff700fffffa411ffffb211ffffd011ffffd811ffffa02fffff1c30ffff5032ffff5e32ffff7c32ffff8432ffff52a8ffffaaabffff36acffff68aeffff76aeffff94aeffff9caeffff2ee5ffff00f1ffff02f1ffff04f1ffff000000003a300000bc320000f835000056390000d0390000f8400000a4460000
+    m_ExpandedIDs: 92eeffff24efffff58f1ffff62f1ffff70f1ffff78f1fffffef3ffff00f4ffff02f4ffff04f4ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: EventSystem (2)
-      m_OriginalName: EventSystem (2)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 16922
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
