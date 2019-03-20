@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CubeBehaviourScript.cs" />
+     <Compile Include="Assets\LaserScript.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Debug_UI\RC_UI_Texture.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Debug_UI\VuforiaDeviceOrientationDebug.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Get_Texture\RC_Get_Texture.cs" />
@@ -60,6 +62,7 @@
      <Compile Include="Assets\Region_Capture\Scripts\RenderTextureCamera.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\SetOrthographicSize.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\VuforiaDeviceOrientation.cs" />
+     <Compile Include="Assets\SpawnScript.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
