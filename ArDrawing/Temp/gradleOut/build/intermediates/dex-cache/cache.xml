@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\C1620353\Documents\Group_Project\AR_Dentistry_Team_10\ArDrawing\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b375a689c4555d10c4706d2110f5c9913a6c4a59">
+        <dex dex="C:\Users\C1620353\Documents\Group_Project\AR_Dentistry_Team_10\ArDrawing\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_5e3eed339a6b4cccffd299e36207777081143dee.jar" />
+    </item>
+
+</items>

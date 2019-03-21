@@ -192,7 +192,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 ddf4a69ce8e6a6e487484a35f4f69fe2 Assembly-CSharp.dll:.VuforiaDeviceOrientationDebug
-6dd4d2fc429435c82789dde4350c5061 Assembly-CSharp.dll:.CubeBehaviourScript
+e8bcc3a0e57df9c371adaaca2f7d6065 Assembly-CSharp.dll:.CubeBehaviourScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NextScene
 8aea00d88dbb0e8c4858836323d3004d Assembly-CSharp.dll:.VuforiaDeviceOrientation
 9e6e9345ed1c3d70338a112b0aaa406c Assembly-CSharp.dll:.SpawnScript

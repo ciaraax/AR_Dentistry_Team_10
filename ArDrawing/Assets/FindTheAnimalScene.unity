@@ -121,7 +121,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 181652919}
-  - component: {fileID: 181652918}
   - component: {fileID: 181652920}
   m_Layer: 0
   m_Name: _SpawnController
@@ -130,17 +129,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &181652918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 181652917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6dd08a9a44c7484790efae8e7ef568c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &181652919
 Transform:
   m_ObjectHideFlags: 0
@@ -290,34 +278,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 441053333}
---- !u!1 &668543552
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 668543553}
-  m_Layer: 0
-  m_Name: _GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &668543553
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 668543552}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &885677215
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: -1826476478, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldCenterMode: 2
+  mWorldCenterMode: 3
   mWorldCenter: {fileID: 0}
 --- !u!81 &885677218
 AudioListener:
@@ -438,7 +398,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1015048107}
   - component: {fileID: 1015048108}
-  - component: {fileID: 1015048109}
   - component: {fileID: 1015048110}
   m_Layer: 0
   m_Name: _LaserController
@@ -468,13 +427,13 @@ LineRenderer:
   m_GameObject: {fileID: 1015048106}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 432be44a4e8aa8a47ad4ad332c567b54, type: 2}
+  - {fileID: 2100000, guid: 8feec562b4a820046ad05c154925b04f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -510,16 +469,10 @@ LineRenderer:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.49238303
-        value: 0.42857075
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
         time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
+        value: 0.0000009536743
+        inSlope: -0.4594698
+        outSlope: -0.4594698
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -560,17 +513,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &1015048109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1015048106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a5bef5402215419668fc2d5c15f85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1015048110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,7 +754,7 @@ RectTransform:
   m_Children:
   - {fileID: 441053334}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -846,7 +788,7 @@ Transform:
   m_Children:
   - {fileID: 1015048107}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938731540
 GameObject:
@@ -908,5 +850,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
