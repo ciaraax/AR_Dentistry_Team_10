@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/DuckDrawing.unity
   isLoaded: 1
-  isActive: 0
+  isActive: 1
 - path: Assets/DrawingTwo.unity
   isLoaded: 0
   isActive: 0
@@ -10,4 +10,4 @@ sceneSetups:
   isActive: 0
 - path: Assets/FindTheAnimalScene.unity
   isLoaded: 1
-  isActive: 1
+  isActive: 0
