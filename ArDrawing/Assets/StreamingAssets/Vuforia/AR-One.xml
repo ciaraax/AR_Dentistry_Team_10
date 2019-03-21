@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Correct" size="0.500000 0.237500" />
     <ImageTarget name="AR-Game" size="0.500000 0.120010" />
     <ImageTarget name="AR-Model" size="0.500000 0.304114" />
     <ImageTarget name="AR-Video" size="0.500000 0.287249" />
