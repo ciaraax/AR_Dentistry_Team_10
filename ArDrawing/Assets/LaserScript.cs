@@ -12,9 +12,6 @@ public class LaserScript : MonoBehaviour {
 	// Line render that will represent the Laser
 	private LineRenderer mLaserLine;
 
-	// Laser Sound
-	private AudioSource mLaserSoundFX;
-
 	// Define if laser line is showing
 	private bool mLaserLineEnabled;
 
@@ -28,8 +25,6 @@ public class LaserScript : MonoBehaviour {
 		// getting the Line Renderer
 		mLaserLine = GetComponent<LineRenderer>();
 
-		// Getting Laser Sound Effect
-		mLaserSoundFX = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -86,7 +81,7 @@ public class LaserScript : MonoBehaviour {
 	// Show the Laser Effects
 	private IEnumerator LaserFx(){
 		mLaserLine.enabled = true;
-		mLaserSoundFX.Play();
+
 
 		// Way for a specific time to remove the LineRenderer
 		yield return mLaserDuration;

@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CubeBehaviourScript : MonoBehaviour {
 
-	// Cube's Max/Min scale
-	public float mScaleMax  = 2f;
-	public float mScaleMin  = 0.5f;
+	public float mScaleMax	= 2f;
+	public float mScaleMin	= 0.5f;
+
+	public int mCubeHealth	= 100;
 
 	// Orbit max Speed
 	public float mOrbitMaxSpeed = 30f;
@@ -22,16 +23,29 @@ public class CubeBehaviourScript : MonoBehaviour {
 
 	// Max Cube Scale
 	private Vector3 mCubeMaxScale;
-
 	// Growing Speed
-	public float mGrowingSpeed  = 10f;
-	private bool mIsCubeScaled  = false;
+	public float mGrowingSpeed	= 10f;
+	private bool mIsCubeScaled	= false;
 
+	private bool mIsAlive		= true;
+
+
+	// Use this for initialization
 	void Start () {
 		CubeSettings();
 	}
 
-	// Set initial cube settings
+	// Update is called once per frame
+	void Update () {
+		// makes the cube orbit and rotate
+		RotateCube();
+
+		// scale cube if needed
+		if ( !mIsCubeScaled )
+			ScaleObj();
+	}
+
+
 	private void CubeSettings(){
 		// defining the anchor point as the main camera
 		mOrbitAnchor = Camera.main.transform;
@@ -51,16 +65,8 @@ public class CubeBehaviourScript : MonoBehaviour {
 
 		// set cube scale to 0, to grow it lates
 		transform.localScale = Vector3.zero;
-	}
 
-	// Update is called once per frame
-	void Update () {
-		// makes the cube orbit and rotate
-		RotateCube();
 
-		// scale cube if needed
-		if ( !mIsCubeScaled )
-			ScaleObj();
 	}
 
 	// Makes the cube rotate around a anchor point
@@ -70,7 +76,7 @@ public class CubeBehaviourScript : MonoBehaviour {
 		transform.RotateAround(
 			mOrbitAnchor.position, mOrbitDirection, mOrbitSpeed * Time.deltaTime);
 
-		// rotating around its axis
+		// rotating around its axus
 		transform.Rotate( mOrbitDirection * 30 * Time.deltaTime);
 	}
 
@@ -84,13 +90,7 @@ public class CubeBehaviourScript : MonoBehaviour {
 			mIsCubeScaled = true;
 	}
 
-	// Cube Health
-	public int mCubeHealth  = 100;
-
-	// Define if the Cube is Alive
-	private bool mIsAlive       = true;
-
-	// Cube got Hit
+	// Cube gor Hit
 	// return 'false' when cube was destroyed
 	public bool Hit( int hitDamage ){
 		mCubeHealth -= hitDamage;
@@ -100,6 +100,7 @@ public class CubeBehaviourScript : MonoBehaviour {
 		}
 		return false;
 	}
+		
 
 	// Destroy Cube
 	private IEnumerator DestroyCube(){

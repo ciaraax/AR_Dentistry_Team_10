@@ -23,10 +23,8 @@ GameObject:
   - component: {fileID: 65000012329460606}
   - component: {fileID: 114971001968405156}
   - component: {fileID: 23000011123982542}
-  - component: {fileID: 114000013980442752}
   - component: {fileID: 54000012985782810}
   - component: {fileID: 82000011690158564}
-  - component: {fileID: 114296428524385748}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -195,44 +193,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114000013980442752
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011340699830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00ffe8399469d49b580e623f5f69fa11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mScaleMax: 2
-  mScaleMin: 0.5
-  mCubeHealth: 100
-  mOrbitMaxSpeed: 30
-  mGrowingSpeed: 10
---- !u!114 &114296428524385748
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011340699830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f65673c6db0decd4cade04776f5202d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mScaleMax: 2
-  mScaleMin: 0.5
-  mOrbitMaxSpeed: 30
-  mOrbitSpeed: 0
-  mOrbitAnchor: {fileID: 0}
-  mOrbitDirection: {x: 0, y: 0, z: 0}
-  mCubeMaxScale: {x: 0, y: 0, z: 0}
-  mGrowingSpeed: 10
-  mIsCubeScaled: 0
-  mCubeHealth: 100
-  mIsAlive: 1
 --- !u!114 &114971001968405156
 MonoBehaviour:
   m_ObjectHideFlags: 1
