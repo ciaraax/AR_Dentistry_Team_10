@@ -335,7 +335,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1135498120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 0, z: 0}
+  m_LocalPosition: {x: 0.07, y: -0.208, z: -0.019}
   m_LocalScale: {x: 0.49, y: 0.49, z: 0.49}
   m_Children:
   - {fileID: 1148323419}
@@ -464,7 +464,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1148323418}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7c37f1365ce3f2643a14af834871d1fc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 079fe3662105f164cb3c26394742e9e6, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -474,16 +474,18 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 3
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: "file://C:/Users/C1134575/Desktop/AR dentist/AR_Dentistry_Team_10/ArDrawing/Assets/videos/Teach
     Kids about Brushing their Teeth _ Colgate\xAE.mp4"
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -563,7 +565,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fa91fbcc6636407089b3bad8d666f91e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 935368926f314fc78986481f65864b1d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -662,7 +664,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1973719641}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.349, y: 0, z: 0}
   m_LocalScale: {x: 1.12, y: 1, z: 1}
   m_Children:
   - {fileID: 1135498121}
