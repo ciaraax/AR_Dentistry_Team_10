@@ -1,12 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LaserScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SceneManagementTest.cs">
     <Files>
-      <File FileName="Assets\LaserScript.cs" Line="33" Column="53" />
-      <File FileName="..\..\..\LaserScripttest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Region_Capture\Readme.txt" Line="1" Column="1" />
-      <File FileName="Assets\SpawnScript.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\SpawnScriptTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Region_Capture\Scripts\NextScene.cs" Line="9" Column="26" />
+      <File FileName="Assets\Editor\BasicTest.cs" Line="23" Column="3" />
+      <File FileName="Assets\Editor\NavigationTest.cs" Line="24" Column="2" />
+      <File FileName="Assets\SceneManagementTest.cs" Line="13" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
