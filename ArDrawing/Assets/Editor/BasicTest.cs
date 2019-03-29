@@ -16,13 +16,7 @@ public class BasicTest {
 		EditorSceneManager.NewScene(NewSceneSetup.EmptyScene);
 
 	}
-
-	[Test]
-	public void NavigateTestSimplePasses() {
-		// Use the Assert class to test conditions.
-
-
-	}
+		
 
 	[Test]
 	public void BasicTestOne()
@@ -45,12 +39,5 @@ public class BasicTest {
 		);
 
 	}
-
-
-	[UnityTest]
-	public IEnumerator BasicTestWithEnumeratorPasses() {
-		// Use the Assert class to test conditions.
-		// yield to skip a frame
-		yield return null;
-	}
+		
 }

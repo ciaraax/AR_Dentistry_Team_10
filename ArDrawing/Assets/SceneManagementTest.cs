@@ -8,19 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagmentTest {
 
-	[Test]
-	public void SceneManagmentSimplePasses() {
-		// Use the Assert class to test conditions.
-	}
 
-	// A UnityTest behaves like a coroutine in PlayMode
-	// and allows you to yield null to skip a frame in EditMode
-	[UnityTest]
-	public IEnumerator SceneManagmentWithEnumeratorPasses() {
-		// Use the Assert class to test conditions.
-		// yield to skip a frame
-		yield return null;
-	}
 
 	public static IEnumerable<string> LevelTestCases{
 		get { return new List<string> { "DuckDrawing", "HomeScreen", "FindTheAnimalScene", "DrawingTwo"  }; }
