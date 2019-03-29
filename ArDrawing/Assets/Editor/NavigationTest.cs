@@ -7,7 +7,6 @@ public class NavigationTest {
 
 
 
-
 	public void NavigationTestSimplePasses() {
 		// Use the Assert class to test conditions.
 	}

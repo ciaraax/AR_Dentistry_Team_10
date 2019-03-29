@@ -45,8 +45,7 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - AR_coloring_page
-    dataSetsToActivate:
-    - AR_coloring_page
+    dataSetsToActivate: []
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -59,7 +58,7 @@ MonoBehaviour:
     autoStartTracker: 1
     trackingMode: 0
     posePrediction: 0
-    modelCorrectionMode: 1
+    modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   smartTerrain:
