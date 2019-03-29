@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="chuck" size="50.000000 81.632652" />
+    <ImageTarget name="teeth" size="50.000000 63.088234" />
+    <ImageTarget name="xmas" size="50.000000 50.000000" />
+    <ImageTarget name="unity-chan" size="50.000000 77.690582" />
     <ImageTarget name="dragon" size="50.000000 100.000000" />
   </Tracking>
 </QCARConfig>

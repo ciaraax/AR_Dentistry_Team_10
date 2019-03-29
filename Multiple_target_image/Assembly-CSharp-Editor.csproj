@@ -68,6 +68,7 @@
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\Models\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
      <Compile Include="Assets\SamplesResources\SceneAssets\CloudReco\Scripts\Editor\CloudRecoEventHandlerEditor.cs" />
      <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\Editor\UDTEventHandlerEditor.cs" />
      <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\Editor\OptionsConfigEditor.cs" />
