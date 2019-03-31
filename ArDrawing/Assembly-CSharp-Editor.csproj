@@ -54,6 +54,7 @@
      <Compile Include="Assets\Editor\BasicTest.cs" />
      <Compile Include="Assets\Editor\CubeBehaviourTests.cs" />
      <Compile Include="Assets\Editor\LaserTest.cs" />
+     <Compile Include="Assets\Editor\SceneManagementTest.cs" />
      <Compile Include="Assets\Editor\SpawnScriptTest.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\Editor\RegionCaptureEditor.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />

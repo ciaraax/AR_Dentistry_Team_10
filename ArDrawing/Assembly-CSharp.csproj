@@ -62,7 +62,6 @@
      <Compile Include="Assets\Region_Capture\Scripts\RenderTextureCamera.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\SetOrthographicSize.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\VuforiaDeviceOrientation.cs" />
-     <Compile Include="Assets\SceneManagementTest.cs" />
      <Compile Include="Assets\SpawnScript.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
