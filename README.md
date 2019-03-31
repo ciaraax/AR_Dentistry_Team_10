@@ -33,7 +33,19 @@ Next, open up Unity, and click the 'open' option. This will lead to opening your
 Connect your Android device to your computer via the USB wire, then, in Unity, click 'File' and 'Build and Run' This will then build the application and will automaticall open the application on your Android device. 
 
 ## Running the tests
- Explain tests here
+ To run the play mode tests within unity you need to:
+
+Go to Window > General > Test Runner.
+
+Click the small drop-down menu in the top-right of the window.
+
+Click Enable playmode tests for all assemblies.
+
+In the dialog box appears, click OK to manually restart the Editor.
+
+Then you can run both edit mode and play mode tests by sqtiching betwee the 'EditMode' and 'PlayMode' tabs
+
+Then press 'Run All' in the top left corner
 
 ## Design justification
 The design of the colourful naviagtion was to be chid friendly and keep the app upbeat. 
@@ -73,8 +85,8 @@ master is a protected branch and require a review on the pull request, before th
 
 * **Ciara Langton** - *Design and Development* - [ciaraax](https://github.com/ciaraax)
 * **Masroor Unar** - *Design and Development* - [Masroor-Unar](https://github.com/Masroor-Unar)
-* **Ishaq Hussain** - *Design and Development* - []
-(https://github.com/)
+* **Ishaq Hussain** - *Design and Development* - [ishaq18](https://github.com/ishaq18)
+
 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
