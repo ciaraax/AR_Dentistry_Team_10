@@ -45,8 +45,10 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - AR_coloring_page
+    - Unityandgooglevr
     dataSetsToActivate:
     - AR_coloring_page
+    - Unityandgooglevr
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -55,11 +57,11 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
     trackingMode: 0
     posePrediction: 0
-    modelCorrectionMode: 1
+    modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   smartTerrain:

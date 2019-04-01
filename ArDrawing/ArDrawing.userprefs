@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SceneManagementTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Region_Capture\Scripts\RenderTextureCamera.cs">
     <Files>
-      <File FileName="Assets\Region_Capture\Scripts\NextScene.cs" Line="9" Column="26" />
-      <File FileName="Assets\Editor\BasicTest.cs" Line="23" Column="3" />
-      <File FileName="Assets\Editor\NavigationTest.cs" Line="24" Column="2" />
-      <File FileName="Assets\SceneManagementTest.cs" Line="13" Column="46" />
+      <File FileName="Assets\Region_Capture\Scripts\NextScene.cs" Line="9" Column="1" />
+      <File FileName="Assets\Region_Capture\Scripts\RegionCapture.cs" Line="11" Column="2" />
+      <File FileName="Assets\Editor\SpawnScriptTest.cs" Line="22" Column="3" />
+      <File FileName="Assets\SpawnScript.cs" Line="18" Column="1" />
+      <File FileName="Assets\Region_Capture\Scripts\RenderTextureCamera.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
