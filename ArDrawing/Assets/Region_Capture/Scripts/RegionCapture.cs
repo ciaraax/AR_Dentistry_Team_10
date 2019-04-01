@@ -7,7 +7,7 @@ using System.Collections;
 #endif
 
 public class RegionCapture : MonoBehaviour
-{
+{	
 	public bool UseBackgroundPlane = true;
 	public Texture VideoBackgroundTexure;
 	public GameObject BackgroundPlane;
