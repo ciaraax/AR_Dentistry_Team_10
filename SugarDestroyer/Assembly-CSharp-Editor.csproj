@@ -51,7 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\CubeBehaviourTests.cs" />
+     <Compile Include="Assets\Editor\LaserTest.cs" />
      <Compile Include="Assets\Editor\NewEditModeTest.cs" />
+     <Compile Include="Assets\Editor\SpawnScriptTest.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
