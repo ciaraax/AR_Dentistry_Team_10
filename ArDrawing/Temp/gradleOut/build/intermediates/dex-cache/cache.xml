@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\C1620353\Documents\Group_Project\AR_Dentistry_Team_10\ArDrawing\Temp\gradleOut\libs\unity-classes.jar"
+        jar="C:\Users\c1633251\Documents\AR\AR_Dentistry_Team_10\ArDrawing\Temp\gradleOut\libs\unity-classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="b375a689c4555d10c4706d2110f5c9913a6c4a59">
-        <dex dex="C:\Users\C1620353\Documents\Group_Project\AR_Dentistry_Team_10\ArDrawing\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_5e3eed339a6b4cccffd299e36207777081143dee.jar" />
+        <dex dex="C:\Users\c1633251\Documents\AR\AR_Dentistry_Team_10\ArDrawing\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_b09c99b66910992b42ff2406e10df7a1666bad8f.jar" />
     </item>
 
 </items>

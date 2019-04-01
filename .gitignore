@@ -1,0 +1,9 @@
+UnityLockfile
+**/Library/*
+**/Temp/*
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.userprefs
+**/*.pidb
+*.*.meta
