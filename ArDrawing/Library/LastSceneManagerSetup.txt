@@ -6,5 +6,11 @@ sceneSetups:
   isLoaded: 1
   isActive: 0
 - path: Assets/FindTheAnimalScene.unity
-  isLoaded: 0
+  isLoaded: 1
+  isActive: 0
+- path: Assets/DuckDrawing.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/DrawingTwo.unity
+  isLoaded: 1
   isActive: 0
