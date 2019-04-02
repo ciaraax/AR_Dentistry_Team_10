@@ -1,25 +1,18 @@
 ﻿using UnityEngine;
+using UnityEditor;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
 
 public class PlayerPhysicsTest {
 
-	[Test]
-	public void PlayerPhysicsTestSimplePasses() {
-		// Use the Assert class to test conditions.
-	}
+	[UnityTest] // testing that it moves the player on the x axis
+	public IEnumerator PlayerMovesOnXAxisis() {
+		var player = new GameObject().AddComponent<Player>();
+		player.speed = 1;
 
-	// A UnityTest behaves like a coroutine in PlayMode
-	// and allows you to yield null to skip a frame in EditMode
-	[UnityTest]
-	public IEnumerator PlayerPhysicsTestWithEnumeratorPasses() {
-		var gobj = new GameObject ();
-		gobj.AddComponent<Rigidbody2D> ();
-		var originalPosition = gobj.transform.position.y;
+		yield return null;
 
-		yield return new WaitForFixedUpdate ();
-
-		Assert.AreNotEqual (originalPosition, gobj.transform.position.y);
+		Assert.AreEqual (1, player.transform.position.x, 25f); 
 	}
 }
