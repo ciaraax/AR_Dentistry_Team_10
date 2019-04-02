@@ -1,10 +1,10 @@
 sceneSetups:
 - path: Assets/MainLevel.unity
   isLoaded: 1
-  isActive: 0
-- path: Assets/HomeScreen.unity
-  isLoaded: 1
   isActive: 1
+- path: Assets/HomeScreen.unity
+  isLoaded: 0
+  isActive: 0
 - path: Assets/multiple_image.unity
   isLoaded: 0
   isActive: 0
