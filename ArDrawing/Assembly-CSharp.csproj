@@ -52,12 +52,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CubeBehaviourScript.cs" />
+     <Compile Include="Assets\DisableVuforia.cs" />
+     <Compile Include="Assets\Dodge\Block.cs" />
+     <Compile Include="Assets\Dodge\BlockSpawner.cs" />
+     <Compile Include="Assets\Dodge\GameManager.cs" />
+     <Compile Include="Assets\Dodge\MobileMovement.cs" />
+     <Compile Include="Assets\Dodge\Player.cs" />
      <Compile Include="Assets\LaserScript.cs" />
+     <Compile Include="Assets\NextScene.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Debug_UI\RC_UI_Texture.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Debug_UI\VuforiaDeviceOrientationDebug.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Get_Texture\RC_Get_Texture.cs" />
      <Compile Include="Assets\Region_Capture\Samples\Out_Of_Bounds_Detection\RC_Change_Color.cs" />
-     <Compile Include="Assets\Region_Capture\Scripts\NextScene.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\RegionCapture.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\RenderTextureCamera.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\SetOrthographicSize.cs" />
@@ -278,13 +284,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/C1620353/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/c1633251/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/C1620353/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/c1633251/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/C1620353/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/c1633251/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

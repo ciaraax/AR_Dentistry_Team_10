@@ -1,12 +1,11 @@
 Android
 PlayerPath?
-C:/Users/C1620353/Documents/ArDrawing/test1.apk
+C:/Users/c1633251/Documents/AR/AR_Dentistry_Team_10/ArDrawing/dodge.apk
 SceneListBegin?
 Assets/HomeScreen.unity
 Assets/DuckDrawing.unity
-Assets/DrawingTwo.unity
-Assets/FindTheAnimalScene.unity
 Assets/multiple_image.unity
+Assets/MainLevel.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -114,6 +113,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultInitializationErrorHandler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Block
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RC_Change_Color
@@ -197,6 +197,8 @@ e3bfb26d2f8a8a39f24d324d3d226cc1 Assembly-CSharp.dll:UnityChan.CameraController
 0de88d96fd292d919299f7af4af26e8d Assembly-CSharp.dll:UnityChan.IdleChanger
 82f67d42f6f6f642199f8e70786a0e68 Assembly-CSharp.dll:UnityChan.SpringManager
 ddf4a69ce8e6a6e487484a35f4f69fe2 Assembly-CSharp.dll:.VuforiaDeviceOrientationDebug
+8a2858086ceba1b19db1ad5931007ea8 Assembly-CSharp.dll:.Player
+3721a3e7fdb00e383e79e33ec3d05c29 Assembly-CSharp.dll:.GameManager
 e8bcc3a0e57df9c371adaaca2f7d6065 Assembly-CSharp.dll:.CubeBehaviourScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NextScene
 8aea00d88dbb0e8c4858836323d3004d Assembly-CSharp.dll:.VuforiaDeviceOrientation
@@ -220,6 +222,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 a1ce0c3141be3ae70808d64035a67a88 Assembly-CSharp.dll:UnityChan.ThirdPersonCamera
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MobileMovement
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 82760860e3f4b3f1acf05d4e555ba5bf UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -241,10 +244,12 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 1f562fa6bec7a2be9d76dbd3b5d04565 Assembly-CSharp.dll:.RC_UI_Texture
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 329188eea5090696a69f61c3d5789358 Assembly-CSharp.dll:UnityChan.FaceUpdate
+8ba10a81f30df654cf35d0b4f8823db0 Assembly-CSharp.dll:.BlockSpawner
 b8dbaba0490ba4b6cdadfc4782937f50 Assembly-CSharp.dll:UnityChan.SpringBone
 a0be3a90df779b743ce08964b5c71728 Assembly-CSharp.dll:UnityChan.RandomWind
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SetOrthographicSize
 00a151844dbacabd8a6d3807a4d0f53d Assembly-CSharp.dll:UnityChan.UnityChanControlScriptWithRgidBody
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DisableVuforia
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 2e0fd93f459db951da0e2e94e2e33fb7 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
