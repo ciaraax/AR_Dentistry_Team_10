@@ -10,7 +10,7 @@ public class BlockSpawner : MonoBehaviour {
 
 	private float timeToSpawn = 2f;
 
-	void Update () {
+	public void Update () {
 
 		if (Time.time >= timeToSpawn)
 		{
@@ -20,7 +20,7 @@ public class BlockSpawner : MonoBehaviour {
 
 	}
 
-	void SpawnBlocks ()
+	public void SpawnBlocks ()
 	{
 		int randomIndex = Random.Range(0, spawnPoints.Length);
 

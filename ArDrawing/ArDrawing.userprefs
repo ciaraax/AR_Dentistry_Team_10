@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Dodge\BlockSpawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\PlayerPhysicsTest.cs">
     <Files>
       <File FileName="Assets\Dodge\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Dodge\BlockSpawner.cs" Line="9" Column="37" />
+      <File FileName="Assets\Editor\PlayerPhysicsTest.cs" Line="26" Column="1" />
+      <File FileName="Assets\Dodge\BlockSpawner.cs" Line="18" Column="47" />
+      <File FileName="Assets\Editor\BlockSpawnTest.cs" Line="24" Column="46" />
+      <File FileName="Assets\Editor\SpawnScriptTest.cs" Line="15" Column="3" />
+      <File FileName="Assets\SpawnScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
