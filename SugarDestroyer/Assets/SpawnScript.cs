@@ -10,7 +10,7 @@ public class SpawnScript : MonoBehaviour {
 	// Cube element to spawn
 	public GameObject mCubeObj;
 	// Qtd of Cubes to be Spawned
-	public int mTotalCubes		= 10;
+	public int mTotalCubes		= 30;
 	// Time to spawn the Cubes
 	public float mTimeToSpawn	= 1f;
 

@@ -17,7 +17,7 @@ public class SpawnScriptTest {
 	[Test]
 	public void howManyCubes(){	 
 
-		Assert.AreEqual (10, spawn.mTotalCubes);
+		Assert.AreEqual (30, spawn.mTotalCubes);
 
 	}
 
