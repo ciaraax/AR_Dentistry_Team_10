@@ -3,6 +3,8 @@ PlayerPath?
 C:/Users/c1633251/Documents/AR/AR_Dentistry_Team_10/ArDrawing/dodge.apk
 SceneListBegin?
 Assets/HomeScreen.unity
+Assets/DuckDrawing.unity
+Assets/multiple_image.unity
 Assets/MainLevel.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -318,4 +320,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.changeScene

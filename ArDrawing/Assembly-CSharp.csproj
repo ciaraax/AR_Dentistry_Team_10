@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\changeScene.cs" />
      <Compile Include="Assets\CubeBehaviourScript.cs" />
      <Compile Include="Assets\DisableVuforia.cs" />
      <Compile Include="Assets\Dodge\Block.cs" />
