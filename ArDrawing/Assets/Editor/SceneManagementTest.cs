@@ -11,7 +11,7 @@ public class SceneManagmentTest {
 
 
 	public static IEnumerable<string> LevelTestCases{
-		get { return new List<string> { "DuckDrawing", "HomeScreen", "FindTheAnimalScene", "DrawingTwo"  }; }
+		get { return new List<string> { "DuckDrawing", "HomeScreen", "MainLevel", "multiple_image"  }; }
 	}
 
 	[UnityTest]
