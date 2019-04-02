@@ -167,7 +167,6 @@ GameObject:
   - component: {fileID: 885677219}
   - component: {fileID: 885677218}
   - component: {fileID: 885677217}
-  - component: {fileID: 885677216}
   m_Layer: 0
   m_Name: cubecam
   m_TagString: Untagged
@@ -175,17 +174,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &885677216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 885677215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &885677217
 MonoBehaviour:
   m_ObjectHideFlags: 0

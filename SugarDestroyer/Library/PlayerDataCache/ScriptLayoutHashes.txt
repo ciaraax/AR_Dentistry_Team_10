@@ -2,7 +2,7 @@ Android
 PlayerPath?
 C:/Users/C1620353/Documents/Group_Project/AR_Dentistry_Team_10/SugarDestroyer/sugarGame.apk
 SceneListBegin?
-Assets/FindTheAnimalScene.unity
+Assets/sugarDestroyer.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
