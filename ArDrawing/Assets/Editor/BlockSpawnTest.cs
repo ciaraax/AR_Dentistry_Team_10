@@ -16,21 +16,15 @@ public class BlockSpawnTest {
 	[Test]
 	public void TimeBetweenEachWave() {
 		// Use the Assert class to test conditions.
-		Assert.AreEqual(1f, spawn.timeBetweenWaves);
+		Assert.AreEqual(1, spawn.timeBetweenWaves);
 	}
 
 	[Test]
-	public void TimeToSpawn() {
-		// Use the Assert class to test conditions.		Assert.AreEqual(2f, spawn.Update);
+	public void AmountOfBlockedSpawned() {
+		Assert.AreEqual (4, spawn.amountToSpawn);
 	}
-
 
 	// A UnityTest behaves like a coroutine in PlayMode
 	// and allows you to yield null to skip a frame in EditMode
-	[UnityTest]
-	public IEnumerator Instantiantes_GameObject_From_Prefab() {
-		// Use the Assert class to test conditions.
-		// yield to skip a frame
-		yield return null;
-	}
+
 }

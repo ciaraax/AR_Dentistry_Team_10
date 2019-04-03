@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour {
 		StartCoroutine(RestartLevel());
     }
 
-	IEnumerator RestartLevel ()
+	public IEnumerator RestartLevel ()
 	{
 		Time.timeScale = 1f / slowness;
 		Time.fixedDeltaTime = Time.fixedDeltaTime / slowness;

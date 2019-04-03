@@ -34,15 +34,4 @@ public class PlayerPhysicsTest {
 
 		Assert.AreEqual (1, player.transform.position.x, 1f); 
 	}
-	[UnityTest] 
-	public IEnumerator RigidBody_WillBeAffectedByPhysics(){
-		var player = new GameObject();
-		player.AddComponent<Rigidbody>();
-		var originalPosition = player.transform.position.y;
-
-		yield return new WaitForFixedUpdate();
-
-		Assert.AreNotEqual (originalPosition, player.transform.position.y);
-	}
-
 }

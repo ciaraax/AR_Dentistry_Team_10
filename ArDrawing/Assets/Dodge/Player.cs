@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 	public float speed = 15f;
 	public float mapWidth = 5f;
 	private Rigidbody2D rb;
-	void Start ()
+	public void Start ()
 	{
 		rb = GetComponent<Rigidbody2D> ();
 	}

@@ -4,7 +4,7 @@ using UnityEngine;
 public class MobileMovement : MonoBehaviour {
 
 	// Update is called once per frame
-	void Update () {
+	public void Update () {
 		transform.Translate (Input.acceleration.x, 0, -Input.acceleration.z);
 	}
 }
