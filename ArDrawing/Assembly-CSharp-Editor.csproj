@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\NewEditModeTest.cs" />
+     <Compile Include="Assets\Editor\NewPlayModeTest.cs" />
      <Compile Include="Assets\Region_Capture\Scripts\Editor\RegionCaptureEditor.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
      <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
