@@ -4,7 +4,8 @@
 
 The following is a README.md for Team 10's Augmented Reality Large Group project. This project was created for Cardiff University's Dental Surgery with collaboration from the National Software Academy (Newport). The project is a functioning prototype, aiming to solve the problem that the client proposed.
 
-There is a small, shared waiting room between paediatrics and orthodontics, as well as their parent(s). As physically making the space isn't feesible, they wanted to use technology to keep the children entertained and either kept in their seats or in one aspect of the waiting room, to make the waiting room a more enjoyable place for both younger children and make it quiter for the older patients. 
+## The problem
+The problem is that the waiting room that is shared between pediatrics and orthodontics is very small and there isn't room for everything. There is a small area for toys and books that are all for younger ages and nothing for older children and teenagers. The clients want some added features to the room via AR to make the waiting area more fun for the children waiting for their appointments. They want entertainment with a message as well as providing a distraction for the children so there are fewer disruptions in the waiting area. Even though it is a shared waiting room - the age demographics we will be aiming for is 10-year-olds. They want the room to be foremost the basis of all Augmented Reality.
 
 ## Getting Started
 
@@ -33,7 +34,10 @@ Next, open up Unity, and click the 'open' option. This will lead to opening your
 Connect your Android device to your computer via the USB wire, then, in Unity, click 'File' and 'Build and Run' This will then build the application and will automaticall open the application on your Android device. 
 
 ## Running the tests
- To run the play mode tests within unity you need to:
+
+Please remove the SceneManagment test from the Editor folder to the Assets folder to run in Play Mode. Move it back into the Editor folder when building the app. 
+
+To run the play mode tests within unity you need to:
 
 Go to Window > General > Test Runner.
 
@@ -47,12 +51,11 @@ Then you can run both edit mode and play mode tests by sqtiching betwee the 'Edi
 
 Then press 'Run All' in the top left corner
 
-## Design justification
-The design of the colourful naviagtion was to be chid friendly and keep the app upbeat. 
 
 ## Built with 
-[Unity](https://unity.com/) - Development Platform
-[Vuforia](https://www.vuforia.com/) - SDK used
+* [Unity](https://unity.com/) - Development Platform
+* [Vuforia](https://www.vuforia.com/) - SDK used
+* [Android Studio] (https://developer.android.com/studio)- SDK
 
 
 ## Contributing
@@ -89,6 +92,24 @@ master is a protected branch and require a review on the pull request, before th
 
 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ciaraax/AR_Dentistry_Team_10/graphs/contributors) who participated in this project.
 
 ## Acknowledgements
+* Unity Docs were extremely helpful for testing -
+https://docs.unity3d.com/Manual/testing-editortestsrunner.html
+* This Tutorial helped in the making of the Suagr destroyed game -
+https://code.tutsplus.com/tutorials/pokemon-go-style-augmented-reality-with-vuforia-part-2--cms-27232
+* This Tutorial helped with the colouring app game -
+https://sushanta1991.blogspot.com/2018/07/how-to-make-ar-coloring-application-in.html
+* Vuforia docs were also very helpful in this project-
+https://developer.vuforia.com/forum/cloud-recognition/unity-documentation
+* Model for Dragon free to use fine for personal and comercial
+https://free3d.com/3d-models/dragon
+* Tutorial for fighter chracter fine for personal use Ambigious about comercial
+https://www.ourtechart.com/augmented-reality/tutorial/augmented-reality-character-animation/
+* Anime girl from unity store Copy right
+https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705
+* Tutorial for 2D game fine for comercial use
+https://www.youtube.com/watch?v=tyAutnOlsfA
+
+
