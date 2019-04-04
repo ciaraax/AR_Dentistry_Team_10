@@ -33,7 +33,10 @@ Next, open up Unity, and click the 'open' option. This will lead to opening your
 Connect your Android device to your computer via the USB wire, then, in Unity, click 'File' and 'Build and Run' This will then build the application and will automaticall open the application on your Android device. 
 
 ## Running the tests
- To run the play mode tests within unity you need to:
+
+Please remove the SceneManagment test from the Editor folder to the Assets folder to run in Play Mode. Move it back into the Editor folder when building the app. 
+
+To run the play mode tests within unity you need to:
 
 Go to Window > General > Test Runner.
 
@@ -51,8 +54,8 @@ Then press 'Run All' in the top left corner
 The design of the colourful naviagtion was to be chid friendly and keep the app upbeat. 
 
 ## Built with 
-[Unity](https://unity.com/) - Development Platform
-[Vuforia](https://www.vuforia.com/) - SDK used
+* [Unity](https://unity.com/) - Development Platform
+* [Vuforia](https://www.vuforia.com/) - SDK used
 
 
 ## Contributing
@@ -92,3 +95,12 @@ master is a protected branch and require a review on the pull request, before th
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Acknowledgements
+* Unity Docs were extremely helpful for testing -
+https://docs.unity3d.com/Manual/testing-editortestsrunner.html
+* This Tutorial helped in the making of the Suagr destroyed game -
+https://code.tutsplus.com/tutorials/pokemon-go-style-augmented-reality-with-vuforia-part-2--cms-27232
+* This Tutorial helped with the colouring app game -
+https://sushanta1991.blogspot.com/2018/07/how-to-make-ar-coloring-application-in.html
+* Vuforia docs were also very helpful in this project-
+https://developer.vuforia.com/forum/cloud-recognition/unity-documentation
+
