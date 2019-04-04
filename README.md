@@ -7,11 +7,17 @@ The following is a README.md for Team 10's Augmented Reality Large Group project
 ## The problem definiton
 The problem is that the waiting room that is shared between pediatrics and orthodontics is very small and there isn't room for everything. There is a small area for toys and books that are all for younger ages and nothing for older children and teenagers. The clients want some added features to the room via AR to make the waiting area more fun for the children waiting for their appointments. They want entertainment with a message as well as providing a distraction for the children so there are fewer disruptions in the waiting area. Even though it is a shared waiting room - the age demographics we will be aiming for is 10-year-olds. They want the room to be foremost the basis of all Augmented Reality.
 
-## Project Description 
-This project was built using Unity with Vuforia SDK. We chose Unity because it's a feature rich tool which allowed us to add various functionality to the project. We used Vuforia becasue it is one of the most popular SDKs for developing AR applications. This gave us the oppurtunity to use target images to develop an AR app. Vuforia also allowed us to use Vuforia's internal database system to manage all our traget images. Another reason we chose Unity with Vuforia was because of the wealth of online support provided by the community online. Another advantage of Vuforia is it's cross platform capabilities and it is not restricted to the latest Android OS like some of the other SDKs. 
+## Project purpose 
+The purpose of this project is to explore the concept, utility and acceptability of a prototype application to add augmented reality (AR) features to the paediatric waiting room. This AR application would be accessible via mobile devices to make the waiting area interactive and fun, reducing anxiety for the children waiting for their appointments. 
 
-## Design Justification
-This app was designed with a child theme in mind, since we were developing for children we had to make sure we used child friendly characters and bright colours. We also had to make sure we used child friendly language therfore we used basic words and reduced text to vert short sentences. 
+## Tech used
+This project was built using Unity with Vuforia SDK. We chose Unity because It's a feature rich tool which allowed us to add various functionality to the project. We used Vuforia becasue it is one of the most popular SDKs for developing AR applications. This gave us the oppurtunity to use target images to develop an AR app. Vuforia also allowed us to use Vuforia's internal database system to manage all our traget images. Another reason we chose Unity with Vuforia was because of the wealth of online support provided by the community online. Another advantage of Vuforia is it's cross platform capabilities and it is not restricted to the latest Android OS like some of the other SDKs. 
+
+## Features
+Most of the features in this app make use of target images to bring animated objects and characters to life, We have also used a simple 2D teeth themed game for users to play. Since this project is a prototype and something to show asa proof of concept we have developed a basic app which can be used in places where the target images are found. In the future we could look to add model targets and object targets, which would mean using any object around us to bring them to life. We could also use the new features which Vuforia has to offer. One such feature is extended tracking using device tracking, this is especally useful for when you want to continue using the application even when the target imaage is no longer in the field of view. This could be quite useful when more than one child wants to use the target image but has to wait for someone to finish using the app. 
+
+## Design justification
+This app was designed with a child theme in mind, since we were developing for children we had to make sure we used child friendly characters and bright colours. We also had to make sure we used child friendly language therefore we used basic words and reduced text to vert short sentences. 
 
 ## Getting Started
 
@@ -123,5 +129,8 @@ https://www.youtube.com/watch?v=voZuS09kczg
 https://www.turbosquid.com/3d-models/free-food-3d-model/889330
 * Model for Chocolate was free to use 
 https://www.turbosquid.com/3d-models/free-3ds-mode-sweet-chocolat/591946
+*Reasons to use Vuforia and it's features
+https://library.vuforia.com/content/vuforia-library/en/articles/Training/Extended-Tracking.html
+
 
 
