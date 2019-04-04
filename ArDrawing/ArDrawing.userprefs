@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\videos\vb.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\ColouringTest.cs">
     <Files>
       <File FileName="Assets\Editor\ColouringTest.cs" Line="1" Column="1" />
       <File FileName="Assets\Dodge\Player.cs" Line="1" Column="1" />
@@ -8,8 +8,6 @@
       <File FileName="Assets\Editor\CubeBehaviourTests.cs" Line="1" Column="1" />
       <File FileName="Assets\Editor\LaserTest.cs" Line="1" Column="1" />
       <File FileName="Assets\Editor\SpawnScriptTest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Region_Capture\Scripts\VuforiaDeviceOrientation.cs" Line="1" Column="1" />
-      <File FileName="Assets\videos\vb.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

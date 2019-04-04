@@ -13,12 +13,13 @@ public class BlockSpawnTest {
 
 		spawn = new BlockSpawner ();
 	}
+	// ensuring the blocks are being spawned after one second
 	[Test]
 	public void TimeBetweenEachWave() {
 		// Use the Assert class to test conditions.
 		Assert.AreEqual(1	, spawn.timeBetweenWaves);
 	}
-
+	// ensuring the amount of blocked spawned is 4
 	[Test]
 	public void AmountOfBlockedSpawned() {
 		Assert.AreEqual (4, spawn.amountToSpawn);

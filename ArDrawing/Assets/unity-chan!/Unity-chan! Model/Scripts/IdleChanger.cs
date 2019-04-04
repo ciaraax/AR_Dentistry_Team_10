@@ -83,14 +83,14 @@ namespace UnityChan
 		}
 
 
-		// ランダム判定用関数
+	
 		IEnumerator RandomChange ()
 		{
-			// 無限ループ開始
+
 			while (true) {
-				//ランダム判定スイッチオンの場合
+
 				if (_random) {
-					// ランダムシードを取り出し、その大きさによってフラグ設定をする
+
 					float _seed = Random.Range (0.0f, 1.0f);
 					if (_seed < _threshold) {
 						anim.SetBool ("Back", true);
@@ -98,7 +98,7 @@ namespace UnityChan
 						anim.SetBool ("Next", true);
 					}
 				}
-				// 次の判定までインターバルを置く
+	
 				yield return new WaitForSeconds (_interval);
 			}
 

@@ -56,7 +56,6 @@
      <Compile Include="Assets\Editor\ColouringTest.cs" />
      <Compile Include="Assets\Editor\CubeBehaviourTests.cs" />
      <Compile Include="Assets\Editor\LaserTest.cs" />
-     <Compile Include="Assets\Editor\NewPlayModeTest.cs" />
      <Compile Include="Assets\Editor\PlayerPhysicsTest.cs" />
      <Compile Include="Assets\Editor\SceneManagementTest.cs" />
      <Compile Include="Assets\Editor\SpawnScriptTest.cs" />

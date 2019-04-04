@@ -8,7 +8,8 @@ public class Block : MonoBehaviour {
 		GetComponent<Rigidbody2D>().gravityScale += Time.timeSinceLevelLoad / 20f;
 	}
 
-	// Update is called once per frame
+	// Here we ensure that the block are not infinetly stacked up in the background
+	// which will make the game lag
 	public void Update () {
 		if (transform.position.y < -2f)
 		{
