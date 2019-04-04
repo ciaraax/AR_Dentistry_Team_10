@@ -42,7 +42,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 950, y: 371}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 122}
   m_MaxSize: {x: 4000, y: 4022}
   vertical: 0
-  controlID: 1964
+  controlID: 80
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -110,8 +110,8 @@ MonoBehaviour:
     y: 0
     width: 286
     height: 635
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 321}
-  m_MaxSize: {x: 12008, y: 8021}
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 74
+  controlID: 30
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,14 +186,14 @@ MonoBehaviour:
     y: 357
     width: 675
     height: 278
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 23}
+  m_MinSize: {x: 234, y: 271}
+  m_MaxSize: {x: 10004, y: 10021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 23}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 371}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &10
 MonoBehaviour:
@@ -278,10 +278,10 @@ MonoBehaviour:
     y: 0
     width: 675
     height: 635
-  m_MinSize: {x: 204, y: 321}
-  m_MaxSize: {x: 4004, y: 8021}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 75
+  controlID: 31
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,8 +300,8 @@ MonoBehaviour:
     y: 0
     width: 675
     height: 357
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -338,15 +338,111 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 0}
-    newResultList: []
+    m_Window: {fileID: 14}
+    newResultList:
+    - id: '[ArDrawing][suite]'
+      name: ArDrawing
+      fullName: ArDrawing
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[C:/Users/c1633251/Documents/AR/AR_Dentistry_Team_10/ArDrawing/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+      name: Assembly-CSharp.dll
+      fullName: C:/Users/c1633251/Documents/AR/AR_Dentistry_Team_10/ArDrawing/Library/ScriptAssemblies/Assembly-CSharp.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[Assembly-CSharp][SceneManagmentTest][suite]'
+      name: SceneManagmentTest
+      fullName: SceneManagmentTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[Assembly-CSharp][SceneManagmentTest.LevelIsValid][suite]'
+      name: LevelIsValid
+      fullName: SceneManagmentTest.LevelIsValid
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[Assembly-CSharp][SceneManagmentTest.LevelIsValid("DuckDrawing")]'
+      name: LevelIsValid("DuckDrawing")
+      fullName: SceneManagmentTest.LevelIsValid("DuckDrawing")
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][SceneManagmentTest.LevelIsValid("HomeScreen")]'
+      name: LevelIsValid("HomeScreen")
+      fullName: SceneManagmentTest.LevelIsValid("HomeScreen")
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][SceneManagmentTest.LevelIsValid("MainLevel")]'
+      name: LevelIsValid("MainLevel")
+      fullName: SceneManagmentTest.LevelIsValid("MainLevel")
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][SceneManagmentTest.LevelIsValid("multiple_image")]'
+      name: LevelIsValid("multiple_image")
+      fullName: SceneManagmentTest.LevelIsValid("multiple_image")
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
     m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_ExpandedIDs: 0c0a14ad7827b9e7cad94b0c15609f3affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -390,7 +486,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/c1633251/Documents/AR/AR_Dentistry_Team_10/ArDrawing/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.7432254
+      duration: 1.4067832
       messages: 
       output: 
       stacktrace: 
@@ -402,7 +498,7 @@ MonoBehaviour:
       name: BasicTest
       fullName: BasicTest
       resultStatus: 1
-      duration: 0.239699
+      duration: 0.6876317
       messages: 
       output: 
       stacktrace: 
@@ -414,7 +510,7 @@ MonoBehaviour:
       name: BasicTestOne
       fullName: BasicTest.BasicTestOne
       resultStatus: 1
-      duration: 0.091316
+      duration: 0.3389723
       messages: 
       output: 
       stacktrace: 
@@ -426,7 +522,7 @@ MonoBehaviour:
       name: CatchingErrors
       fullName: BasicTest.CatchingErrors
       resultStatus: 1
-      duration: 0.0930521
+      duration: 0.2367776
       messages: 
       output: 
       stacktrace: 
@@ -438,7 +534,7 @@ MonoBehaviour:
       name: BlockSpawnTest
       fullName: BlockSpawnTest
       resultStatus: 1
-      duration: 0.0555887
+      duration: 0.0693815
       messages: 
       output: 
       stacktrace: 
@@ -450,7 +546,7 @@ MonoBehaviour:
       name: AmountOfBlockedSpawned
       fullName: BlockSpawnTest.AmountOfBlockedSpawned
       resultStatus: 1
-      duration: 0.0218052
+      duration: 0.0266449
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -464,7 +560,7 @@ MonoBehaviour:
       name: TimeBetweenEachWave
       fullName: BlockSpawnTest.TimeBetweenEachWave
       resultStatus: 1
-      duration: 0.0114717
+      duration: 0.0158289
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -478,7 +574,7 @@ MonoBehaviour:
       name: CubeBehaviourTests
       fullName: CubeBehaviourTests
       resultStatus: 1
-      duration: 0.1025172
+      duration: 0.143109
       messages: 
       output: 
       stacktrace: 
@@ -490,7 +586,7 @@ MonoBehaviour:
       name: cubeHealthTest
       fullName: CubeBehaviourTests.cubeHealthTest
       resultStatus: 1
-      duration: 0.010944
+      duration: 0.0170973
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -504,7 +600,7 @@ MonoBehaviour:
       name: growingSpeedTest
       fullName: CubeBehaviourTests.growingSpeedTest
       resultStatus: 1
-      duration: 0.0070438
+      duration: 0.0170923
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -518,7 +614,7 @@ MonoBehaviour:
       name: maxSpeedTest
       fullName: CubeBehaviourTests.maxSpeedTest
       resultStatus: 1
-      duration: 0.0119975
+      duration: 0.0148339
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -532,7 +628,7 @@ MonoBehaviour:
       name: minAndMaxTest
       fullName: CubeBehaviourTests.minAndMaxTest
       resultStatus: 1
-      duration: 0.0135918
+      duration: 0.0189393
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -546,7 +642,7 @@ MonoBehaviour:
       name: LaserTest
       fullName: LaserTest
       resultStatus: 1
-      duration: 0.09357
+      duration: 0.1570473
       messages: 
       output: 
       stacktrace: 
@@ -558,7 +654,7 @@ MonoBehaviour:
       name: fireRangeTest
       fullName: LaserTest.fireRangeTest
       resultStatus: 1
-      duration: 0.0119134
+      duration: 0.0172305
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -572,7 +668,7 @@ MonoBehaviour:
       name: fireRateTest
       fullName: LaserTest.fireRateTest
       resultStatus: 1
-      duration: 0.0073369
+      duration: 0.019965
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -586,7 +682,7 @@ MonoBehaviour:
       name: hitForceTest
       fullName: LaserTest.hitForceTest
       resultStatus: 1
-      duration: 0.0089276
+      duration: 0.019645
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -600,7 +696,7 @@ MonoBehaviour:
       name: laserDamageTest
       fullName: LaserTest.laserDamageTest
       resultStatus: 1
-      duration: 0.0083882
+      duration: 0.0217062
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -614,7 +710,7 @@ MonoBehaviour:
       name: PlayerPhysicsTest
       fullName: PlayerPhysicsTest
       resultStatus: 1
-      duration: 0.0986299
+      duration: 0.1398715
       messages: 
       output: 
       stacktrace: 
@@ -626,7 +722,7 @@ MonoBehaviour:
       name: playableMapSize
       fullName: PlayerPhysicsTest.playableMapSize
       resultStatus: 1
-      duration: 0.0079462
+      duration: 0.0184832
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -640,7 +736,7 @@ MonoBehaviour:
       name: PlayerMovesOnXAxisis
       fullName: PlayerPhysicsTest.PlayerMovesOnXAxisis
       resultStatus: 1
-      duration: 0.0340348
+      duration: 0.0484693
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -654,7 +750,7 @@ MonoBehaviour:
       name: speedOfPlayer
       fullName: PlayerPhysicsTest.speedOfPlayer
       resultStatus: 1
-      duration: 0.0131827
+      duration: 0.0153933
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -668,7 +764,7 @@ MonoBehaviour:
       name: SpawnScriptTest
       fullName: SpawnScriptTest
       resultStatus: 1
-      duration: 0.0575607
+      duration: 0.0792925
       messages: 
       output: 
       stacktrace: 
@@ -680,7 +776,7 @@ MonoBehaviour:
       name: howManyCubes
       fullName: SpawnScriptTest.howManyCubes
       resultStatus: 1
-      duration: 0.0115452
+      duration: 0.0159493
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -694,7 +790,7 @@ MonoBehaviour:
       name: timeToSpawn
       fullName: SpawnScriptTest.timeToSpawn
       resultStatus: 1
-      duration: 0.0108182
+      duration: 0.0232166
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -704,24 +800,19 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    m_ResultText: "Instantiantes_GameObject_From_Prefab (0.032s)\n---\nSystem.NullReferenceException
-      : Object reference not set to an instance of an object\n---\nat BlockSpawnTest+<Instantiantes_GameObject_From_Prefab>c__Iterator0.MoveNext
-      () [0x00041] in C:\\Users\\c1633251\\Documents\\AR\\AR_Dentistry_Team_10\\ArDrawing\\Assets\\Editor\\BlockSpawnTest.cs:34
-      \r\n  at UnityEditor.TestTools.TestRunner.EditModeRunner.InvokeDelegator ()
-      [0x000d4] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEditor.TestRunner\\TestRunner\\EditModeRunner.cs:249\n---\nYou
-      are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.
-      \ MonoBehaviours can only be added using AddComponent().  Alternatively, your
-      script can inherit from ScriptableObject or no base class at all\r\nEditMode
-      test can only yield null"
-    m_ResultStacktrace: "  at BlockSpawnTest+<Instantiantes_GameObject_From_Prefab>c__Iterator0.MoveNext
-      () [0x00041] in C:\\Users\\c1633251\\Documents\\AR\\AR_Dentistry_Team_10\\ArDrawing\\Assets\\Editor\\BlockSpawnTest.cs:34
-      \r\n  at UnityEditor.TestTools.TestRunner.EditModeRunner.InvokeDelegator ()
-      [0x000d4] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEditor.TestRunner\\TestRunner\\EditModeRunner.cs:249 "
+    m_ResultText: 'AmountOfBlockedSpawned (0.027s)
+
+      ---
+
+      You are trying to create a MonoBehaviour using the ''new'' keyword.  This is
+      not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
+      your script can inherit from ScriptableObject or no base class at all'
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 17b619e0
-      m_LastClickedID: -535185897
-      m_ExpandedIDs: 811c6097db0b49b4808676dca82d49e9b6a50110be24701b7654a73215609f3affffff7f
+      m_SelectedIDs: 1726a9a6
+      m_LastClickedID: -1498864105
+      m_ExpandedIDs: 15609f3affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -897,23 +988,23 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 262a0000
-    m_LastClickedID: 10790
-    m_ExpandedIDs: 00000000c6290000d4290000222a0000322b0000be2b0000682c00006e2c0000882c00008e2c0000042d0000322d00000c2f0000183000009031000092310000ffffff7f
+    m_SelectedIDs: 2a2a0000
+    m_LastClickedID: 10794
+    m_ExpandedIDs: 00000000ca290000d8290000262a0000342b0000c02b00006a2c0000702c00008a2c0000902c0000062d0000342d00000c2f000018300000983100009a310000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Editor
-      m_OriginalName: Editor
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10790
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -927,7 +1018,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c6290000d4290000222a0000322b0000be2b0000682c00006e2c0000882c00008e2c0000042d0000322d00000c2f0000183000009031000092310000
+    m_ExpandedIDs: 00000000ca290000d8290000262a0000342b0000c02b00006a2c0000702c00008a2c0000902c0000062d0000342d00000c2f000018300000983100009a310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -952,9 +1043,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e4400000
-    m_LastClickedInstanceID: 16612
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f82500002c3000009828000000000000f02d00004e2b0000f62d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1045,23 +1136,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 92080000
     m_LastClickedID: 0
-    m_ExpandedIDs: 6a19feffb619feff481afeffd61ffeff7a28feff3e2afeff5a2ffeffee32feff6035feff4637feff2e60feffac6afeffe272feff307cfefff67ffeff5088feffa88efeff8690feff2095feff7a9afeff52a7feff16a9feff54acfeffd4aefeff94b2feff1ab5feff80d5feff20d6fefffad9feff72e2feff16e4feff82e5feff66f1feff4a04ffff2606ffff6e11ffffda1dffff1420ffffbe8effff688fffffde97ffff7298ffffc89bffff4c9effff6aa1ffff68a7ffff4aabfffffeaeffffbab8ffff58b9ffff88beffff42c2ffff0ac6ffffd6c6ffff60c7ffffecdeffff22e0ffff9efbffff000000006e380000
+    m_ExpandedIDs: 8cf6ffff3cf7ffffd6f7ffff98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Block
-      m_OriginalName: Block
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -47846
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -1097,7 +1188,7 @@ MonoBehaviour:
     height: 336
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 3107.9043985882467
+  lastFramingTime: 80.505378128744
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
@@ -1132,9 +1223,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.9959228
+    m_Target: 22
     speed: 2
-    m_Value: 3.9959228
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1181,10 +1272,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -640
-    m_HBaseRangeMax: 640
-    m_VBaseRangeMin: -400
-    m_VBaseRangeMax: 400
+    m_HBaseRangeMin: -335.5
+    m_HBaseRangeMax: 335.5
+    m_VBaseRangeMin: -159.5
+    m_VBaseRangeMax: 159.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1216,7 +1307,7 @@ MonoBehaviour:
       width: 1583.8784
       height: 740.5766
     m_MinimalGUI: 1
-  m_defaultScale: 0.39875
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 671, y: 336}
