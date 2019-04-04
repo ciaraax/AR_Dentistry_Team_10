@@ -4,7 +4,7 @@
 
 The following is a README.md for Team 10's Augmented Reality Large Group project. This project was created for Cardiff University's Dental Surgery with collaboration from the National Software Academy (Newport). The project is a functioning prototype, aiming to solve the problem that the client proposed.
 
-## The problem
+## The problem definiton
 The problem is that the waiting room that is shared between pediatrics and orthodontics is very small and there isn't room for everything. There is a small area for toys and books that are all for younger ages and nothing for older children and teenagers. The clients want some added features to the room via AR to make the waiting area more fun for the children waiting for their appointments. They want entertainment with a message as well as providing a distraction for the children so there are fewer disruptions in the waiting area. Even though it is a shared waiting room - the age demographics we will be aiming for is 10-year-olds. They want the room to be foremost the basis of all Augmented Reality.
 
 ## Getting Started
@@ -111,5 +111,11 @@ https://www.ourtechart.com/augmented-reality/tutorial/augmented-reality-characte
 https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705
 * Tutorial for 2D game fine for comercial use
 https://www.youtube.com/watch?v=tyAutnOlsfA
+* Video used on the target image is from YouTube
+https://www.youtube.com/watch?v=voZuS09kczg
+* Model for Apple was free to use 
+https://www.turbosquid.com/3d-models/free-food-3d-model/889330
+* Model for Chocolate was free to use 
+https://www.turbosquid.com/3d-models/free-3ds-mode-sweet-chocolat/591946
 
 
