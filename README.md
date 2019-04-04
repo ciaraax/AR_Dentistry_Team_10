@@ -7,6 +7,12 @@ The following is a README.md for Team 10's Augmented Reality Large Group project
 ## The problem definiton
 The problem is that the waiting room that is shared between pediatrics and orthodontics is very small and there isn't room for everything. There is a small area for toys and books that are all for younger ages and nothing for older children and teenagers. The clients want some added features to the room via AR to make the waiting area more fun for the children waiting for their appointments. They want entertainment with a message as well as providing a distraction for the children so there are fewer disruptions in the waiting area. Even though it is a shared waiting room - the age demographics we will be aiming for is 10-year-olds. They want the room to be foremost the basis of all Augmented Reality.
 
+## Project Description 
+This project was built using Unity with Vuforia SDK. We chose Unity because it's a feature rich tool which allowed us to add various functionality to the project. We used Vuforia becasue it is one of the most popular SDKs for developing AR applications. This gave us the oppurtunity to use target images to develop an AR app. Vuforia also allowed us to use Vuforia's internal database system to manage all our traget images. Another reason we chose Unity with Vuforia was because of the wealth of online support provided by the community online. Another advantage of Vuforia is it's cross platform capabilities and it is not restricted to the latest Android OS like some of the other SDKs. 
+
+## Design Justification
+This app was designed with a child theme in mind, since we were developing for children we had to make sure we used child friendly language and bright colours. We also had to make sure we used child friendly language therfore we used basic words and reduced text to vert short sentences. 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
