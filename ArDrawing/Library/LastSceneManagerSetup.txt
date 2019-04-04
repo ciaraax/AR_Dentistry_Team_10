@@ -1,4 +1,7 @@
 sceneSetups:
-- path: Assets/InitTestScene636899770260419573.unity
+- path: Assets/multiple_image.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/HomeScreen.unity
   isLoaded: 1
   isActive: 1

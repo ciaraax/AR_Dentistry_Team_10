@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mCubeObj: {fileID: 1000011340699830, guid: 4f1d14676e7aa674d9061d4d6ef0b533, type: 2}
-  mTotalCubes: 30
+  mTotalCubes: 10
   mTimeToSpawn: 1
 --- !u!4 &181652919
 Transform:

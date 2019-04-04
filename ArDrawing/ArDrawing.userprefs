@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\PlayerPhysicsTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\ColouringTest.cs">
     <Files>
-      <File FileName="Assets\Dodge\Block.cs" Line="1" Column="1" />
-      <File FileName="Assets\Dodge\MobileMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Dodge\GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\DisableVuforia.cs" Line="1" Column="1" />
-      <File FileName="Assets\Editor\BlockSpawnTest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Editor\PlayerPhysicsTest.cs" Line="32" Column="3" />
+      <File FileName="Assets\Editor\ColouringTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dodge\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dodge\BlockSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Editor\CubeBehaviourTests.cs" Line="1" Column="1" />
+      <File FileName="Assets\Editor\LaserTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Editor\SpawnScriptTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Region_Capture\Scripts\VuforiaDeviceOrientation.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
