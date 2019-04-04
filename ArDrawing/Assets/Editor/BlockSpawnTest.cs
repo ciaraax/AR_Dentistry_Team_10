@@ -16,7 +16,7 @@ public class BlockSpawnTest {
 	[Test]
 	public void TimeBetweenEachWave() {
 		// Use the Assert class to test conditions.
-		Assert.AreEqual(1, spawn.timeBetweenWaves);
+		Assert.AreEqual(1	, spawn.timeBetweenWaves);
 	}
 
 	[Test]
