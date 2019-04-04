@@ -4,7 +4,8 @@
 
 The following is a README.md for Team 10's Augmented Reality Large Group project. This project was created for Cardiff University's Dental Surgery with collaboration from the National Software Academy (Newport). The project is a functioning prototype, aiming to solve the problem that the client proposed.
 
-There is a small, shared waiting room between paediatrics and orthodontics, as well as their parent(s). As physically making the space isn't feesible, they wanted to use technology to keep the children entertained and either kept in their seats or in one aspect of the waiting room, to make the waiting room a more enjoyable place for both younger children and make it quiter for the older patients. 
+## The problem
+The problem is that the waiting room that is shared between pediatrics and orthodontics is very small and there isn't room for everything. There is a small area for toys and books that are all for younger ages and nothing for older children and teenagers. The clients want some added features to the room via AR to make the waiting area more fun for the children waiting for their appointments. They want entertainment with a message as well as providing a distraction for the children so there are fewer disruptions in the waiting area. Even though it is a shared waiting room - the age demographics we will be aiming for is 10-year-olds. They want the room to be foremost the basis of all Augmented Reality.
 
 ## Getting Started
 
@@ -54,6 +55,7 @@ Then press 'Run All' in the top left corner
 ## Built with 
 * [Unity](https://unity.com/) - Development Platform
 * [Vuforia](https://www.vuforia.com/) - SDK used
+* [Android Studio] (https://developer.android.com/studio)- SDK
 
 
 ## Contributing
@@ -101,4 +103,13 @@ https://code.tutsplus.com/tutorials/pokemon-go-style-augmented-reality-with-vufo
 https://sushanta1991.blogspot.com/2018/07/how-to-make-ar-coloring-application-in.html
 * Vuforia docs were also very helpful in this project-
 https://developer.vuforia.com/forum/cloud-recognition/unity-documentation
+* Model for Dragon free to use fine for personal and comercial
+https://free3d.com/3d-models/dragon
+* Tutorial for fighter chracter fine for personal use Ambigious about comercial
+https://www.ourtechart.com/augmented-reality/tutorial/augmented-reality-character-animation/
+* Anime girl from unity store Copy right
+https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705
+* Tutorial for 2D game fine for comercial use
+https://www.youtube.com/watch?v=tyAutnOlsfA
+
 
