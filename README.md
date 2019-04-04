@@ -50,8 +50,6 @@ Then you can run both edit mode and play mode tests by sqtiching betwee the 'Edi
 
 Then press 'Run All' in the top left corner
 
-## Design justification
-The design of the colourful naviagtion was to be chid friendly and keep the app upbeat. 
 
 ## Built with 
 * [Unity](https://unity.com/) - Development Platform
@@ -92,7 +90,7 @@ master is a protected branch and require a review on the pull request, before th
 
 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ciaraax/AR_Dentistry_Team_10/graphs/contributors) who participated in this project.
 
 ## Acknowledgements
 * Unity Docs were extremely helpful for testing -
